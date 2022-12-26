@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
-
+// /api/categories/:id
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
